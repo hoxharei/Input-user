@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+
+        <form style="margin: 10px;" class="type">
+
+        <input type="text" id="name" placeholder="Emri">
+        <select id="select" class="userRole">
+        <option value="student">Student</option>
+        <option value="mesues">Mësues</option>
+        </select>
+        <span onclick="newElement()" class="addBtn">+ SHTO</span>
+        </form>
+
+      </div>
+    <hr/>
+    <div>
+        <input type="text" id="searchInput" onkeyup="search()" placeholder="Kërko">
+    </div>
+
+    <div id="users">
+        <ul id="usersList">
+
+        </ul>
+    </div>
+
+<script src="main.js"></script>
+</body>
+</html>
